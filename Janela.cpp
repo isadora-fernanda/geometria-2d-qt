@@ -120,7 +120,7 @@ void Janela::paintEvent(QPaintEvent *){
     P.setPen(Qt::gray);
     P.drawLine(ORIGY,0,ORIGY,TAM_JAN);
     P.drawLine(0,ORIGX,TAM_JAN,ORIGX);
-    //imprime as linahs e legenda      só incrementa usando o zoom se o zoom for pequeno
+    //imprime as linhas e legenda      só incrementa usando o zoom se o zoom for pequeno
 
     (Zoom > 4 )?(Zoom = 4):(Zoom);
     (Zoom < 1/4 )?(Zoom = 1/4):(Zoom);
